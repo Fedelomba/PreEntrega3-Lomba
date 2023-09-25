@@ -1,0 +1,126 @@
+.padreflex{
+    flex-wrap: wrap
+}
+
+/* Index */
+
+.fondoboton{
+    background-color: #252525;
+}
+#fotos{
+
+    width: 240px;
+    height: 240px;
+}
+
+ul{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;    
+}
+
+.parrafoi{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+}
+
+/* Nosotros */
+
+#h1N{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+.parrafon{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+}
+
+header {
+    background-color: #252525;
+}
+header img{
+    width: 120px;
+}
+
+body img{
+    width: 240px;
+}
+
+footer img{
+    width: 40px;
+}
+
+#footerlogo{
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#imagenN{
+    align-content: center;
+    width: 360px;
+    height: 360px;
+}
+
+
+#h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+/* Productos */
+
+.imagenesproducto{
+    width: 240px;
+    height: 240px;
+}
+
+#h1{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+
+#p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px; 
+    font-style: normal;
+}
+
+/* Picadas */
+
+.carruselancho{
+    width: 50%;
+    height: 50%;
+}
+
+#h1p{
+
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+
+/* Contacto */
+
+#h1c{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+
+#pc{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px; 
+    font-style: normal; 
+}

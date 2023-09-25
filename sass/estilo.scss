@@ -1,0 +1,209 @@
+
+@import "partials/variables";
+@import "partials/header";
+
+
+.padreflex{
+    flex-wrap: wrap;
+}
+
+.flexdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Index */
+
+.fondoboton{
+    background-color: $Colorfondo;
+}
+.fotos{
+    width: 240px;
+    height: 240px;
+}
+
+ul{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;    
+}
+
+.parrafoi{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cards{
+    margin-top: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+/* Nosotros */
+
+.h1N{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: $Colortexto;
+}
+
+.h2n{
+    margin-top: 1,5rem;
+    margin-bottom: 1,5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: $Colortexto;
+}
+.parrafon{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+}
+
+.imagenN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+}
+
+.h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+/* Productos */
+
+.imagenesproducto{
+    width: 240px;
+    height: 240px;
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: $Colortexto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-style: normal;
+}
+
+/* Picadas */
+
+.carruselancho{
+    width: 75%;
+}
+
+.carruselubic{
+flex-direction: column;  
+}
+
+.h1p{
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    color: $Colortexto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Contacto */
+
+.h1c{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: $Colortexto;
+}
+
+.pc{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-style: normal; 
+    text-align: center;
+}
+
+.form{
+    margin-left: 1,5rem;
+    margin-right: 1,5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+body img{
+    width: 240px;
+}
+footer img{
+    width: 40px;
+}
+
+#footerlogo{
+    justify-content: flex-end;
+    align-items: end;
+}
+/* mobile */
+@media only screen and (max-width:500px){
+
+    header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    header a{
+        font-size: 1.5rem;
+    }
+
+
+    /*index*/
+
+    .divPadreFlex{
+        flex-direction: column;
+    }
+    .flexdiv{
+
+        flex-direction: column;
+
+    }
+}
+
+.transicion{
+    text-align: center;
+}
+.transicion:hover{
+    color: $colortransicion;
+    transform: scale(1.5,1.5)
+
+}
+

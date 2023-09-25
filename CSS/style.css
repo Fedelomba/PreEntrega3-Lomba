@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Poppins:wght@200;300;400&family=Raleway:wght@100&family=Rubik:wght@300&display=swap');
+.padreflex{
+    flex-wrap: wrap
+}
+
+.flexdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Index */
+
+.fondoboton{
+    background-color: #252525;
+}
+.fotos{
+    width: 240px;
+    height: 240px;
+}
+
+ul{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;    
+}
+
+.parrafoi{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cards{
+    margin-top: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+/* Nosotros */
+
+.h1N{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+}
+
+.h2n{
+    margin-top: 1,5rem;
+    margin-bottom: 1,5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.parrafon{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;  
+    text-align: center;
+}
+
+header {
+    background-color: #252525;
+}
+header img{
+    width: 120px;
+}
+
+body img{
+    width: 240px;
+}
+
+footer img{
+    width: 40px;
+}
+
+.footerlogo{
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.imagenN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+}
+
+
+.h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+/* Productos */
+
+.imagenesproducto{
+    width: 240px;
+    height: 240px;
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-style: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Picadas */
+
+.carruselancho{
+    width: 75%;
+}
+
+.carruselubic{
+ justify-content: space-around;  
+}
+
+.h1p{
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Contacto */
+
+.h1c{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+
+.pc{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-style: normal; 
+    text-align: center;
+}
+
+.form{
+    margin-left: 1,5rem;
+    margin-right: 1,5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+/* mobile */
+@media only screen and (max-width:500px){
+
+    header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    header a{
+        font-size: 1.5rem;
+    }
+
+
+    /*index*/
+
+    .divPadreFlex{
+        flex-direction: column;
+    }
+    .flexdiv{
+
+        flex-direction: column;
+
+    }
+}
+
+.gradientes {
+    border: rgb(73, 185, 58) solid 5px;
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
